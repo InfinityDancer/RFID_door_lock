@@ -1,4 +1,4 @@
-# RFID_door_lock
+# RFID Door Lock with Arduino Uno R3
 
 This GitHub repository presents a project focused on implementing a door lock system using Radio-Frequency Identification (RFID) technology.
 
