@@ -8,11 +8,12 @@ This project aims to enhance security by allowing access through authorized RFID
 
 * **Hardware Components**:
 
-  * Arduino Uno or compatible microcontroller
-  * RFID reader module (e.g., RC522)
-  * Relay module to control the lock
-  * Solenoid lock or electronic strike
-  * Power supply
+  * Arduino Uno R3: Mircrocontroller. Contains digital pins(1-12 and ground), analog pins(A0-A5), 3.3V PIN , two 5V pins and two ground pins.
+  * Servo: Motor with gears for precise movement. Contains 5V pin, ground pin and control pin.
+  * RFID RC522: Radio Frequency Identification, used to identify the tag attached to the object. Contains the VCC pin, RST pin, GRD pin, IRQ pin, MISO / SCL / Tx pin , MOSI pin, SCK pin and SS / SDA / Rx pin.
+  * Jumper Wires: to connect the components to each other.
+  * USB cable: used to connect the CPU to the Arduino UNO board.
+
 
 * **Software Components**:
 
